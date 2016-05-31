@@ -11,9 +11,10 @@
     tools:context="android.antocara.tipcalc.MainActivity"
     >
 
-  <TextView
-      android:text="Hello World!"
-      android:layout_width="wrap_content"
+  <include
+      android:layout_width="match_parent"
       android:layout_height="wrap_content"
+      android:id="@+id/tipContent"
+      layout="@layout/content_tip"
       />
 </RelativeLayout>
