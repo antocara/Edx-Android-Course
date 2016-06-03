@@ -1,11 +1,9 @@
 package android.antocara.tipcalc.fragments;
 
-import edu.galileo.android.tipcalc.model.TipRecord;
+import android.antocara.tipcalc.model.TipRecord;
 
-/**
- * Created by ykro.
- */
 public interface TipHistoryListFragmentListener {
-    void addToList(TipRecord record);
-    void clearList();
+  void addToList(TipRecord record);
+
+  void clearList();
 }

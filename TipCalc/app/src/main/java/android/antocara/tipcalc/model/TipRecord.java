@@ -3,9 +3,7 @@ package android.antocara.tipcalc.model;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * Created by ykro.
- */
+
 public class TipRecord {
     private double bill;
     private Date timestamp;
