@@ -20,7 +20,7 @@ import butterknife.ButterKnife;
 public class TipHistoryListFragment extends Fragment
     implements OnItemClickListener, TipHistoryListFragmentListener {
 
-  @BindView(R.id.recyclerView)
+
   RecyclerView recyclerView;
   private CustomRecyclerAdapter adapter;
 
@@ -31,6 +31,7 @@ public class TipHistoryListFragment extends Fragment
   public View onCreateView(LayoutInflater inflater, ViewGroup container,
       Bundle savedInstanceState) {
     View view = inflater.inflate(R.layout.fragment_tip_history_list, container, false);
+    recyclerView = (RecyclerView) view.findViewById(R.id.recyclerView);
     ButterKnife.bind(this, view);
     initAdapter();
     initRecyclerView();
