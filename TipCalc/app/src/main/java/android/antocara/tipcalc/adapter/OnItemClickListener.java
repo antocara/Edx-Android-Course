@@ -1,11 +1,7 @@
 package android.antocara.tipcalc.adapter;
 
+import android.antocara.tipcalc.model.TipRecord;
 
-import edu.galileo.android.tipcalc.model.TipRecord;
-
-/**
- * Created by ykro.
- */
 public interface OnItemClickListener {
-    void onItemClick(TipRecord element);
+  void onItemClick(TipRecord element);
 }
